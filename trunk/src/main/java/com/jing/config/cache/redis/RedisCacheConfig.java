@@ -28,8 +28,8 @@ import com.fasterxml.jackson.databind.ObjectMapper;
  * @author: lichao
  * @date: 2016年12月26日 上午9:24:31
  */
-@Configuration
-@EnableCaching
+//@Configuration
+//@EnableCaching
 public class RedisCacheConfig extends CachingConfigurerSupport {
 
 	private static final Logger logger = LoggerFactory.getLogger(RedisCacheConfig.class);

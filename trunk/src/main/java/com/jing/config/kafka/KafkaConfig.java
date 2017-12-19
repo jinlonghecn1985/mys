@@ -17,8 +17,8 @@ import com.jing.utils.StringUtil;
  * @author: lichao
  * @date: 2017年2月13日 上午10:12:51
  */
-@Configuration
-@Component
+//@Configuration
+//@Component
 public class KafkaConfig {
 	
 	@Value("${kafka.base.topic:\"\"}")

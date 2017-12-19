@@ -20,8 +20,8 @@ import org.springframework.kafka.core.ProducerFactory;
  * @author: lichao
  * @date: 2017年1月9日 上午9:25:18
  */
-@Configuration
-@EnableKafka
+//@Configuration
+//@EnableKafka
 public class KafkaProducerConfig {
 	
 	@Value("${kafka.broker.servers}")
