@@ -25,7 +25,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
  * 
  * @ClassName: RedisCachConfig
  * @Description: 缓存管理（注解用）
- * @author: lichao
+ * @author: Jinlong He
  * @date: 2016年12月26日 上午9:24:31
  */
 //@Configuration

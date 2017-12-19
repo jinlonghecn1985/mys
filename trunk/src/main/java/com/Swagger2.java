@@ -17,8 +17,8 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 /**  
 * @ClassName: Swagger2  
 * @Description: TODO(这里用一句话描述这个类的作用)  
-* @author li chao
-* @date 2016年12月16日 下午1:36:54 
+* @author Jinlong He
+* @date 2017年12月16日 下午1:36:54 
 * @version V1.0  
 */
 @Configuration
@@ -39,7 +39,7 @@ public class Swagger2 {
                 .title("Spring Boot中使用Swagger2构建RESTful APIs")
                 .description("智营销基础服务接口文档")
                 .termsOfServiceUrl("http://www.ejw.cn/")
-                .contact("lichao")
+                .contact("Jinlong He")
                 .version("1.0")
                 .build();
     }
