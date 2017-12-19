@@ -17,11 +17,10 @@ import org.springframework.web.context.request.ServletRequestAttributes;
 
 import com.alibaba.fastjson.JSONObject;
 
-import io.swagger.models.auth.In;
 
 
-@Aspect   //定义一个切面
-@Configuration
+//@Aspect   //定义一个切面
+//@Configuration
 public class LogRecordAspect {
 private static final Logger logger = LoggerFactory.getLogger(LogRecordAspect.class);
 

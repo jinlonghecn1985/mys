@@ -4,12 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.jing</groupId>
-	<artifactId>platform</artifactId>
+	<artifactId>mys</artifactId>
 	<version>1.0</version>
 	<packaging>jar</packaging>
 
-	<name>zyx.platform</name>
-	<description>平台服务</description>
+	<name>mys</name>
+	<description>迈优斯后台服务</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -17,12 +17,6 @@
 		<version>1.5.4.RELEASE</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
- <repositories>
-	    <repository>
-	        <id>jing-maven-repo</id>	        
-	        <url>http://git.hnjing.com/java/jing-maven-repository/raw/master</url>
-	    </repository>
-    </repositories>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -30,11 +24,6 @@
 	</properties>
 
 	<dependencies>
-	<dependency>
-		    <groupId>com.jing.jsonschema.validator</groupId>
-		    <artifactId>jsonschema-validator</artifactId>
-		    <version>1.0.0</version>
-		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-mail</artifactId>
