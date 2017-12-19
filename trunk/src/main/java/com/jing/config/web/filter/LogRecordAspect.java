@@ -19,8 +19,8 @@ import com.alibaba.fastjson.JSONObject;
 
 
 
-//@Aspect   //定义一个切面
-//@Configuration
+@Aspect   //定义一个切面
+@Configuration
 public class LogRecordAspect {
 private static final Logger logger = LoggerFactory.getLogger(LogRecordAspect.class);
 

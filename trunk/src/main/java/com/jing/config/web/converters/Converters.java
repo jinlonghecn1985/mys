@@ -13,7 +13,7 @@ import com.alibaba.fastjson.support.spring.FastJsonHttpMessageConverter;
  *
  * @ClassName: Converters
  * @Description: 消息转换类
- * @author: li chao
+ * @author: 
  * @date: 2017年4月28日 上午10:10:36
  */
 @Configuration
