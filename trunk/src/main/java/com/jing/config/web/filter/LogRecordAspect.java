@@ -50,8 +50,8 @@ private static final Logger logger = LoggerFactory.getLogger(LogRecordAspect.cla
         logger.info("请求开始, 各个参数, url: {}, method: {}, uri: {}, params: {}, body:{}", url, method, uri, queryString,wholeStr);
         // result的值就是被拦截方法的返回值
         Object result = pjp.proceed();
-        JSONObject json = new JSONObject();
-        logger.info("请求结束，controller的返回值是 " + json.toJSONString(result));
+        //JSONObject json = new JSONObject();
+        logger.info("请求结束，controller的返回值是 " + JSONObject.toJSONString(result));
         return result;
     }
 }

@@ -502,17 +502,17 @@ public class HttpClientAllUtil {
         }
     }
  
-    public static void main(String[] arg){
-    	try {
-    		HttpClientResult hr = HttpClientAllUtil.executeUploadFile(null, 
-					"http://192.168.150.40:8080/cs/v1/file?owner=1", "d:/123.docx", "UTF-8", true);
-			System.out.println(hr.getCode());
-			System.out.println(hr.getBody());
-		} catch (IOException e) {
-			
-			e.printStackTrace();
-		}
-    }
+//    public static void main(String[] arg){
+//    	try {
+//    		HttpClientResult hr = HttpClientAllUtil.executeUploadFile(null, 
+//					"http://192.168.150.40:8080/cs/v1/file?owner=1", "d:/123.docx", "UTF-8", true);
+//			System.out.println(hr.getCode());
+//			System.out.println(hr.getBody());
+//		} catch (IOException e) {
+//			
+//			e.printStackTrace();
+//		}
+//    }
     
 //    public static void main(String[] arg){
 //    	try {

@@ -37,8 +37,8 @@ public class Swagger2 {
 	private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
                 .title("Spring Boot中使用Swagger2构建RESTful APIs")
-                .description("智营销基础服务接口文档")
-                .termsOfServiceUrl("http://www.ejw.cn/")
+                .description("迈优斯服务接口文档")
+                .termsOfServiceUrl("http://www.mys1688.cn/")
                 .contact("Jinlong He")
                 .version("1.0")
                 .build();

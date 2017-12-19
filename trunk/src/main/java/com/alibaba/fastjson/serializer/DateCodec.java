@@ -22,7 +22,6 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
-import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -35,7 +34,6 @@ import com.alibaba.fastjson.parser.deserializer.AbstractDateDeserializer;
 import com.alibaba.fastjson.parser.deserializer.ObjectDeserializer;
 import com.alibaba.fastjson.util.IOUtils;
 import com.alibaba.fastjson.util.TypeUtils;
-import com.google.common.collect.Maps;
 import com.jing.config.web.exception.ParameterException;
 import com.jing.utils.ValidationMessagesUtil;
 

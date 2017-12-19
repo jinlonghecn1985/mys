@@ -214,19 +214,19 @@ public class WordDocxUtil {
 		return false;
 	}
 	
-	public static void main(String[] arg) {
-		String inputUrl = "D:\\50.docx";
-		String outputUrl = "D:\\51.docx";		
-		Map<String, String> param = new HashMap<String, String>();
-		param.put("userName", "景隆");
-		param.put("userNote", "不是宗师，也是高手");
-		
-		List<String[]> tables = new ArrayList<String[]>();
-		for(int i=0; i<10; i++){
-			String[] s = new String[]{ "话题"+i, ""+(100*i), "不是高手，也是老司机"+i};
-			tables.add(s);
-		}
-		WordDocxUtil.writeTemplateWord(inputUrl, outputUrl, null, null);		
-	}
+//	public static void main(String[] arg) {
+//		String inputUrl = "D:\\50.docx";
+//		String outputUrl = "D:\\51.docx";		
+//		Map<String, String> param = new HashMap<String, String>();
+//		param.put("userName", "景隆");
+//		param.put("userNote", "不是宗师，也是高手");
+//		
+//		List<String[]> tables = new ArrayList<String[]>();
+//		for(int i=0; i<10; i++){
+//			String[] s = new String[]{ "话题"+i, ""+(100*i), "不是高手，也是老司机"+i};
+//			tables.add(s);
+//		}
+//		WordDocxUtil.writeTemplateWord(inputUrl, outputUrl, null, null);		
+//	}
 
 }

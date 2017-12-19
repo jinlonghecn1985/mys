@@ -69,12 +69,12 @@ public class UpDownFileUtil {
         return bos.toByteArray();    
     }    
   
-    public static void main(String[] args) {  
-        try{  
-            downLoadFromUrl("https://bj.bcebos.com/v1/dev-con/cbd14aa082174c12b7689a548fb2bf4b.docx",  
-                    "百度.docx","d:/");  
-        }catch (Exception e) {  
-            // TODO: handle exception  
-        }  
-    }  
+//    public static void main(String[] args) {  
+//        try{  
+//            downLoadFromUrl("https://bj.bcebos.com/v1/dev-con/cbd14aa082174c12b7689a548fb2bf4b.docx",  
+//                    "百度.docx","d:/");  
+//        }catch (Exception e) {  
+//            // TODO: handle exception  
+//        }  
+//    }  
 }

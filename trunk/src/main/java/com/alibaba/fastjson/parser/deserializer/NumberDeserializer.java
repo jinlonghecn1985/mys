@@ -2,13 +2,11 @@ package com.alibaba.fastjson.parser.deserializer;
 
 import java.lang.reflect.Type;
 import java.math.BigDecimal;
-import java.util.Map;
 
 import com.alibaba.fastjson.parser.DefaultJSONParser;
 import com.alibaba.fastjson.parser.JSONLexer;
 import com.alibaba.fastjson.parser.JSONToken;
 import com.alibaba.fastjson.util.TypeUtils;
-import com.google.common.collect.Maps;
 import com.jing.config.web.exception.ParameterException;
 import com.jing.utils.ValidationMessagesUtil;
 
