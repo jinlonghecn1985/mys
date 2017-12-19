@@ -1,0 +1,4 @@
+git : https://github.com/jinlonghecn1985/mys.git
+192.168.150.125:3306/mys
+ÓÃ»§Ãû£ºroot
+ÃÜÂë£º123456
