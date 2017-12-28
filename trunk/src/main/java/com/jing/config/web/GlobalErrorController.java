@@ -71,6 +71,10 @@ public class GlobalErrorController implements ErrorController {
     		map.put("code", "405");
     		map.put("message", "不支持当前请求方法");
     		map.put("errors", Maps.newHashMap());
+    	}else if(403 == response.getStatus()){
+    		map.put("code", "403");
+    		map.put("message", "拒绝访问");
+    		map.put("errors", Maps.newHashMap());
     	}
     	return map;
     }
